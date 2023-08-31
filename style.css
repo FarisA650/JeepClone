@@ -1,0 +1,181 @@
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: black;
+}
+
+header img{
+    width: 100px;
+}
+
+.options{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-family: "Heebo","Roboto",sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.options p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin-left: 20px;
+}
+
+.build{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    margin-left: 300px;
+    font-size: .8571428571rem;
+    font-weight: 700;
+}
+
+.build p{
+    margin-right: 20px;
+    font-family: "Heebo","Roboto",sans-serif;
+}
+
+.container1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+    width: 100%;
+    background-image: url('Jeephome.jpg');
+    background-size: cover;
+}
+
+.btn1{
+    background-color: #ffba00;
+    color: black;
+    font-family: "Heebo","Roboto",sans-serif;
+    letter-spacing: .05rem;
+    font-size: 1rem;
+    padding: 1rem 3rem 0.85714rem 1.78571rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box2 img{
+    margin-top: 30px;
+    width: 300px;
+}
+
+.box_2 p{
+    color: black;
+    font-family: "Heebo","Roboto",sans-serif;
+    letter-spacing: .05rem;
+    font-size: 1rem;
+    padding: 1rem 3rem 0.85714rem 1.78571rem;
+    font-weight: 700;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 img{
+    width: 420px;
+    padding: 10px;
+}
+
+.box4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(27, 27, 27);
+    height: 100px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #bfbfbf;
+    margin-bottom: 2px;
+    font-family: "Heebo","Roboto",sans-serif;
+    font-size: 14px;
+}
+
+.contact p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box5{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+
+.box5 img{
+    width: 1345px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2{
+    background-color: #ffba00;
+    color: black;
+    font-family: "Heebo","Roboto",sans-serif;
+    letter-spacing: .05rem;
+    font-size: 12px;
+    padding: 7px;
+    font-weight: 700;
+    border: none;
+}
+
+.txt{
+    padding: 5px;
+    width: 200px;
+}
+
+footer{
+    background: black;
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 14px;
+    font-family: "Heebo","Roboto",sans-serif;
+    padding-bottom: 50px;
+}
+
+footer li{
+    margin-top: 10px;
+}
+
+footer li:hover{
+    color: white;
+}
